@@ -2,5 +2,5 @@
 <manifest>
     <remove-project name="kernel/tests" />
     <remove-project name="platform/prebuilts/android-emulator" />
-    <remove-project name="platform/prebuilts/qemu-kernel" />
+    <!--remove-project name="platform/prebuilts/qemu-kernel" /-->
 </manifest>
