@@ -12,22 +12,4 @@
 <project path="device/sony/akatsuki" name="device-sony-akatsuki" groups="device" remote="shujath" revision="u-mr1" />
 <project path="device/sony/apollo" name="device-sony-apollo" groups="device" remote="shujath" revision="u-mr1" />
 
-<!--sm8150-->
-<project path="device/sony/kumano" name="device-sony-kumano" groups="device" remote="sony" revision="u-mr1" />
-<project path="device/sony/bahamut" name="device-sony-bahamut" groups="device" remote="sony" revision="u-mr1" />
-<project path="device/sony/griffin" name="device-sony-griffin" groups="device" remote="sony" revision="u-mr1" />
-
-<!--sm6125-->
-<project path="device/sony/seine" name="device-sony-seine" groups="device" remote="sony" revision="u-mr1" />
-<project path="device/sony/pdx201" name="device-sony-pdx201" groups="device" remote="sony" revision="u-mr1" />
-
-<!--sm6350-->
-<project path="device/sony/lena" name="device-sony-lena" groups="device" remote="sony" revision="u-mr1" />
-<project path="device/sony/pdx213" name="device-sony-pdx213" groups="device" remote="sony" revision="u-mr1" />
-
-<!--sm8250-->
-<project path="device/sony/edo" name="device-sony-edo" groups="device" remote="sony" revision="u-mr1" />
-<project path="device/sony/pdx203" name="device-sony-pdx203" groups="device" remote="sony" revision="u-mr1" />
-<project path="device/sony/pdx206" name="device-sony-pdx206" groups="device" remote="sony" revision="u-mr1" />
-
 </manifest>
