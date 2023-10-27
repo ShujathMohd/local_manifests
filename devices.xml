@@ -40,6 +40,5 @@
 <!--sm8450-->
 <project path="device/sony/nagara" name="device-sony-nagara" groups="device" remote="sony" revision="u-mr1" />
 <project path="device/sony/pdx223" name="device-sony-pdx223" groups="device" remote="sony" revision="u-mr1" />
-<project path="device/sony/pdx224" name="device-sony-pdx224" groups="device" remote="sony" revision="u-mr1" />
 
 </manifest>
