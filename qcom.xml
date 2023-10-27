@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="shujath" fetch="https://github.com/shujathmohd/" />
 
-<project path="vendor/qcom/opensource/data-ipacfg-mgr" name="vendor-qcom-opensource-data-ipa-cfg-mgr" groups="device" remote="sony" revision="aosp/LA.UM.9.14.r1" />
+<project path="vendor/qcom/opensource/data-ipacfg-mgr" name="vendor-qcom-opensource-data-ipa-cfg-mgr" groups="device" remote="shujath" revision="android-13.0.0_r82" />
 
 <project path="vendor/qcom/opensource/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.8.11.r1" />
 
