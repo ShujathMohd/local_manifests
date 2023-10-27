@@ -20,7 +20,7 @@
 <project path="vendor/qcom/opensource/media/sm8150" name="hardware-qcom-media-sm8150" groups="device" remote="sony" revision="aosp/LA.UM.8.1.r1" />
 <project path="vendor/qcom/opensource/media/sm8250" name="hardware-qcom-media-sm8150" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
 
-<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="vendor-qcom-opensource-audio-hal-primary-hal" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="vendor-qcom-opensource-audio-hal-primary-hal" groups="device" remote="shujath" revision="aosp/LA.UM.9.12.r1" />
 <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor-qcom-opensource-audio-hal-st-hal" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
 
 <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="r-mr1" />
