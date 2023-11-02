@@ -6,6 +6,9 @@
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="u-mr1" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="shujath" revision="u-mr1" />
 
+<!--customization-->
+<project path="device/sony/customization" name="device-sony-customization" groups="device" remote="shujath" revision="u-mr1" />
+
 <!--sdm845-->
 <project path="device/sony/tama" name="device-sony-tama" groups="device" remote="shujath" revision="u-mr1" />
 <project path="device/sony/akari" name="device-sony-akari" groups="device" remote="shujath" revision="u-mr1" />
