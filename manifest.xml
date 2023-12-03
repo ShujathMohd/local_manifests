@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="shujath" fetch="https://github.com/shujathmohd/" />
+<remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="NXP" fetch="https://github.com/NXP/" />
+
+<!-- Kernel -->
+<project path="kernel/sony/msm-4.14/common-headers" name="kernel-sony-msm-4.14-headers" groups="device" remote="sony" revision="aosp/LA.UM.7.1.r1" />
+<project path="kernel/sony/msm-4.14/kernel" name="kernel" groups="device" remote="shujath" revision="4.14/314" />
+<project path="kernel/sony/msm-4.14/kernel/arch/arm64/configs/sony" name="kernel-defconfig" groups="device" remote="shujath" revision="aosp/LA.UM.7.1.r1" />
+<project path="kernel/sony/qti-headers" name="qti-headers" groups="device" remote="sony" revision="master" />
+
+<!-- Devices -->
+<project path="device/sony/tama" name="device-sony-tama" groups="device" remote="shujath" revision="u-mr1" />
+<project path="device/sony/akari" name="device-sony-akari" groups="device" remote="shujath" revision="u-mr1" />
+<project path="device/sony/akatsuki" name="device-sony-akatsuki" groups="device" remote="shujath" revision="u-mr1" />
+<project path="device/sony/apollo" name="device-sony-apollo" groups="device" remote="shujath" revision="u-mr1" />
+<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="shujath" revision="u-mr1" />
+
+<!--customization Repo-->
+<project path="device/sony/customization" name="device-sony-customization" groups="device" remote="shujath" revision="u-mr1" />
+
+<!-- NXP -->
+<project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
+<project path="vendor/nxp/NXPNFCC_FW" name="nfc-NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
+
+<!-- QCOM Hals-->
+<project path="vendor/qcom/opensource/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.8.11.r1" />
+<project path="vendor/qcom/opensource/gps" name="hardware-qcom-gps" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/display/sm8150" name="vendor-qcom-opensource-display" groups="device" remote="shujath" revision="aosp/LA.UM.8.1.r1" />
+<project path="vendor/qcom/opensource/display-commonsys-intf/sm8150" name="vendor-qcom-opensource-commonsys-intf-display" groups="device" remote="sony" revision="aosp/LA.UM.8.1.r1" />
+<project path="vendor/qcom/opensource/media/sm8150" name="hardware-qcom-media-sm8150" groups="device" remote="sony" revision="aosp/LA.UM.8.1.r1" />
+<project path="vendor/qcom/opensource/media/sdm660-libion" name="hardware-qcom-media" groups="device" remote="sony" revision="aosp/LA.UM.8.2.1.r1" />
+<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="vendor-qcom-opensource-audio-hal-primary-hal" groups="device" remote="shujath" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor-qcom-opensource-audio-hal-st-hal" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="r-mr1" />
+<project path="vendor/qcom/opensource/telephony" name="vendor-qcom-opensource-telephony" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/usb" name="vendor-qcom-opensource-usb" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/bluetooth" name="vendor-qcom-opensource-bluetooth" groups="device" remote="sony" revision="master" />
+<project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="device" remote="sony" revision="aosp/LA.UM.7.1.r1" />
+<project path="vendor/qcom/opensource/wlan" name="hardware-qcom-wlan" groups="device" remote="sony" revision="master" />
+<project path="vendor/qcom/opensource/gpt-utils" name="vendor-qcom-opensource-gpt-utils" groups="device" remote="sony" revision="master" />
+<project path="vendor/qcom/opensource/time-services" name="vendor-qcom-opensource-time-services" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/core-utils" name="vendor-qcom-opensource-core-utils" groups="device" remote="sony" revision="aosp/LA.UM.8.1.r1" />
+
+
+<!-- OSS -->
+<project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/json-c"  name="json-c" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/qcrilam"  name="QcRilAm" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/release-keys" name="release-keys" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/simdetect" name="vendor-sony-oss-simdetect" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="android-14.0.0_r1">
+    <linkfile src="repo_update.sh" dest="repo_update.sh" />
+</project>
+
+</manifest>
