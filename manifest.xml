@@ -3,6 +3,7 @@
 <remote name="shujath" fetch="https://github.com/shujathmohd/" />
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <remote name="NXP" fetch="https://github.com/NXP/" />
+<remote name="Lineage" fetch="https://github.com/LineageOS"/>
 
 <!-- Kernel -->
 <project path="kernel/sony/msm-4.14/common-headers" name="kernel-sony-msm-4.14-headers" groups="device" remote="sony" revision="aosp/LA.UM.7.1.r1" />
@@ -53,6 +54,7 @@
 <project path="vendor/oss/json-c"  name="json-c" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/qcrilam"  name="QcRilAm" groups="device" remote="sony" revision="master" />
+<project path="hardware/sony/SonyOpenTelephony" name="android_hardware_sony_SonyOpenTelephony" revision="lineage-21" remote="Lineage"/>
 <project path="vendor/oss/release-keys" name="release-keys" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/simdetect" name="vendor-sony-oss-simdetect" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
