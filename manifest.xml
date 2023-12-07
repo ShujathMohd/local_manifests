@@ -43,6 +43,14 @@
 <remove-project name="LineageOS/android_hardware_qcom_sdm845_gps" />
 <remove-project name="LineageOS/android_hardware_qcom_sdm845_display" />
 
+<!-- Remove Lineage/CAF Repos conflicting in vendor/qcom/opensource-->
+<remove-project name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_usb" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_core-utils-vendor" />
+
 <!-- QCOM Hals-->
 <project path="vendor/qcom/opensource/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.8.11.r1" />
 <project path="vendor/qcom/opensource/gps" name="hardware-qcom-gps" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
