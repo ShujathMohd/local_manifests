@@ -64,4 +64,16 @@
     <linkfile src="repo_update.sh" dest="repo_update.sh" />
 </project>
 
+<!-- Untrack from hardware/ -->
+<remove-project name="platform/hardware/broadcom/wlan" />
+
+<!-- Untrack from hardware/qcom -->
+<remove-project name="platform/hardware/qcom/bootctrl" />
+<remove-project name="platform/hardware/qcom/bt" />
+<remove-project name="platform/hardware/qcom/keymaster" />
+<remove-project name="platform/hardware/qcom/sm8150/thermal" />
+<remove-project name="platform/hardware/qcom/sm8150/vr" />
+<remove-project name="platform/hardware/qcom/sdm845/bt" />
+<remove-project name="platform/hardware/qcom/sdm845/thermal" />
+<remove-project name="platform/hardware/qcom/sdm845/vr" />
 </manifest>
