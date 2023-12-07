@@ -20,7 +20,7 @@
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="shujath" revision="u-mr1" />
 
 <!--customization Repo-->
-<project path="device/sony/customization" name="device-sony-customization" groups="device" remote="shujath" revision="u-mr1" />
+<project path="device/sony/customization" name="device-sony-customization" groups="device" remote="shujath" revision="cust_u-mr1" />
 
 <!-- NXP -->
 <project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
