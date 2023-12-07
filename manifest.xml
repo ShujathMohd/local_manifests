@@ -61,6 +61,9 @@
 <remove-project name="LineageOS/android_hardware_qcom_media" />
 <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
 
+<!-- Remove Lineage/CAF Repos conflicting in vendor/codeaurora -->
+<remove-project name="LineageOS/android_vendor_codeaurora_telephony" />
+
 <!-- QCOM Hals-->
 <project path="vendor/qcom/opensource/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.8.11.r1" />
 <project path="vendor/qcom/opensource/gps" name="hardware-qcom-gps" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
