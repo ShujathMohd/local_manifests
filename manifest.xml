@@ -59,7 +59,6 @@
 <remove-project name="LineageOS/android_vendor_qcom_opensource_dataipa" />
 <remove-project name="LineageOS/android_hardware_qcom_display" />
 <remove-project name="LineageOS/android_hardware_qcom_media" />
-<remove-project name="LineageOS/android_hardware_qcom-caf_common" />
 <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
 <remove-project name="crdroidandroid/android_hardware_qcom_display" />
 <remove-project name="crdroidandroid/android_hardware_qcom_media" />
