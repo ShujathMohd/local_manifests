@@ -2,6 +2,7 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <remote name="shujath" fetch="https://github.com/shujathmohd/" />
+<remote name="lineageos" fetch="https://github.com/LineageOS/" />
 
 <project path="vendor/qcom/opensource/data-ipacfg-mgr" name="vendor-qcom-opensource-data-ipa-cfg-mgr" groups="device" remote="shujath" revision="android-13.0.0_r82" />
 
@@ -23,7 +24,7 @@
 
 <project path="vendor/qcom/opensource/telephony" name="vendor-qcom-opensource-telephony" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
 
-<project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="device" remote="lineageos" revision="lineage-21.0" />
 
 <project path="vendor/qcom/opensource/usb" name="vendor-qcom-opensource-usb" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
 
