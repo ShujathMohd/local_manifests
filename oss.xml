@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="shujath" fetch="https://github.com/shujathmohd/" />
+
 <project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/json-c"  name="json-c" groups="device" remote="sony" revision="master" />
@@ -12,7 +14,7 @@
 <project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="master" />
-<project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="android-14.0.0_r1">
-    <linkfile src="repo_update.sh" dest="repo_update.sh" />
+<project path="patches" name="patches" groups="device" remote="shujath" revision="u-mr1">
+    <linkfile src="apply_patch.sh" dest="apply_patch.sh" />
 </project>
 </manifest>
