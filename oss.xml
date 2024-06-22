@@ -3,6 +3,7 @@
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <remote name="shujath" fetch="https://github.com/shujathmohd/" />
 <remote name="lineage" fetch="https://github.com/LineageOS/" />
+<remote name="simplekeyboard" fetch="https://github.com/OnePlus-5-T" />
 
 <project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
@@ -15,6 +16,7 @@
 <project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/timekeep" name="android_hardware_sony_timekeep" groups="device" remote="lineage" revision="lineage-21" />
 <project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="master" />
+<project path="packages/apps/SimpleKeyboard" name="packages-apps-simple-keyboard" revision="main" clone-depth="1" remote="simplekeyboard" />
 <project path="patches" name="patches" groups="device" remote="shujath" revision="u-mr1">
     <linkfile src="apply_patch.sh" dest="apply_patch.sh" />
 </project>
