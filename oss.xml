@@ -17,7 +17,7 @@
 <project path="vendor/oss/timekeep" name="android_hardware_sony_timekeep" groups="device" remote="lineage" revision="lineage-21" />
 <project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="master" />
 <project path="packages/apps/SimpleKeyboard" name="packages-apps-simple-keyboard" revision="main" clone-depth="1" remote="simplekeyboard" />
-<project path="patches" name="patches" groups="device" remote="shujath" revision="u-mr1">
+<project path="patches" name="patches" groups="device" remote="shujath" revision="v-mr1">
     <linkfile src="apply_patch.sh" dest="apply_patch.sh" />
 </project>
 </manifest>
