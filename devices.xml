@@ -3,7 +3,7 @@
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <remote name="shujath" fetch="https://github.com/shujathmohd/" />
 
-<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="v-mr1" />
+<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="shujath" revision="v-mr1" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="shujath" revision="v-mr1" />
 
 <!--customization-->
