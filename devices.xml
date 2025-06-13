@@ -4,18 +4,18 @@
 <remote name="shujath" fetch="https://github.com/shujathmohd/" />
 
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="shujath" revision="v-mr1" />
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="shujath" revision="v-mr1" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="shujath" revision="a16" />
 
 <!--customization-->
-<project path="device/sony/customization" name="device-sony-customization" groups="device" remote="shujath" revision="lineage-22.0" />
+<project path="device/sony/customization" name="device-sony-customization" groups="device" remote="shujath" revision="a16" />
 
 <!--sdm845-->
-<project path="device/sony/tama" name="device-sony-tama" groups="device" remote="shujath" revision="v-mr1" />
+<project path="device/sony/tama" name="device-sony-tama" groups="device" remote="shujath" revision="a16" />
 <project path="device/sony/akari" name="device-sony-akari" groups="device" remote="shujath" revision="v-mr1" />
 <project path="device/sony/akatsuki" name="device-sony-akatsuki" groups="device" remote="shujath" revision="v-mr1" />
 <project path="device/sony/apollo" name="device-sony-apollo" groups="device" remote="shujath" revision="v-mr1" />
 
 <!--sdm845 Vendor-->
-<project path="vendor/sony/tama" name="vendor_sony_tama" groups="device" remote="shujath" revision="lineage-22" />
+<project path="vendor/sony/tama" name="vendor_sony_tama" groups="device" remote="shujath" revision="a16" />
 
 </manifest>
